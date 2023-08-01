@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: darkmagenta;
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner-image {
+            width: 128px;
+            height: 128px;
+            object-fit: cover;
+            border-radius: 128px;
+        }
+
+        .name {
+            color: azure;
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner {
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .social-icons a {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        .hobbies {
+            background-color: blanchedalmond;
+            display: flex;
+            align-items: center;
+            padding: 5px;
+        }
+
+        .hobbies a {
+            color: aqua;
+            text-decoration: none;
+            text-align: center;
+            flex-grow: 1;
+            /*...*/
+        }
+
+        * {
+            border: thin blue solid;
+        }
+
+        .items {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            max-width: 640px;
+            flex-grow: 1;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="items">
+        <div class="banner">
+            <img src="/Headshot.jpg" alt="Will Shepard Headshot" class="banner-image">
+        </div>
+
+        <div class="name">
+            Will Shepard 
+        </div>
+
+        <div class="social-icons">
+            <a href="https://github.com/TrueX71" target="_blank">
+                Github
+            </a>
+
+            <a href="https://www.facebook.com/william.shepard.90/" target="_blank">
+                Facebook
+            </a>
+
+            <a href="https://www.linkedin.com/in/william-shepard-071645152/" target="_blank">
+                Linkedin
+            </a>
+        </div>
+
+        <div class="hobbies">
+            <a href="https://www.castingcall.club/SolDWill" target="_blank">
+                I do voice work, please have a listen!!!
+            </a>
+        </div>
+    </div>
+</body>
+</html>
